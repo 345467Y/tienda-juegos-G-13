@@ -1,0 +1,45 @@
+.opcion{
+    background-color: grey;
+    width: 30%;
+    color: red;
+    font-family: monospace;
+    font-size: 18px;
+    text-align: center;
+    padding: 33px;
+    border-radius: 22px;   
+    position: absolute;
+    left: 34%;
+    top: 35%;
+    display: none;
+    border-radius: 50px;
+}
+a{
+    font-family: serif;
+    font-size: larger;
+    color: red;
+    text-decoration: none;
+}
+#cerrar{
+    position: absolute;
+    right: 3px;
+}
+.controls{
+    width: 100%;
+    background: black;
+    padding: 10px;
+    border-radius: 40px;
+    margin-bottom: 16px;
+    border: 1px solid red;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: red;
+}
+.opcion .botons{
+    width: 100%;
+    background: black;
+    border-radius: 40px;
+    padding: 12px;
+    color: red;
+    margin: 16px 0;
+    font-size: 16px;
+}

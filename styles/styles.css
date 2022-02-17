@@ -1,0 +1,65 @@
+body{
+background-color: #030100;
+color: white;
+align-items: center;
+text-align: center;
+}
+.logo{
+    border-radius: 20px;
+    width: auto;
+}
+.nombre-pagina{
+    font-size: x-large;
+    font-family: fantasy;
+}
+.nuestra-seleccion{
+    font-family: cursive;
+    text-align: center;
+}
+.menu{
+    margin: auto;
+    width: max-content;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul, ol{
+    list-style: none;
+}
+.generos li a {
+    background-color: grey;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    min-width: 100px;
+}
+.generos li a:hover{
+    background-color: rgb(124, 27, 27);
+} 
+.generos > li{
+    float: left;
+}
+.generos li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.generos li:hover > ul{
+    display: block;
+}
+.generos li ul li{
+    position: relative;
+}
+.generos li ul li ul{
+    right: -140px;
+    top: 0px;
+}
+.cartelera{
+    display: inline-table;
+}
+.destacados{
+    display: inline-table;
+}
+.pestañas{
+    display: inline-table;
+}
+

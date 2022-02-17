@@ -1,0 +1,63 @@
+
+.footer{
+    background-color: grey;
+    margin: 0 auto;
+    display: block;
+}
+.footer>.container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer .mb{
+    margin-top: 0;
+}
+.footer .mb>div{
+    padding: 10px 0;
+}
+.footer p{
+    margin-bottom: 10px;
+}
+p{
+    font-size: larger;
+}
+.footer span{
+    color: white;
+}
+.footer .politicas{
+    line-height: 25px;
+    padding: 0 8px;
+    font-weight: 700;
+    background-color: rgb(37, 37, 37);
+    display: inline-block;
+    border-radius: 3px;
+}
+.team img{
+    width: 10%;
+    border-radius: 10%;
+}
+.temers{
+    font-size: larger;
+}
+img{
+    backface-visibility: hidden;
+}
+.footer .listsocial{
+    vertical-align: top;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.listsocial a{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: red;
+}
+.listsocial{
+    display: -webkit-inline-box;
+}
