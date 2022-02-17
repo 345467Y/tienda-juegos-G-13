@@ -28,18 +28,23 @@ async function mostrarJuegos(){
         if (id<=8){
             cartasCont.innerHTML+=`
         <div class="juegosImg">
-        <a href="${game_url}"">${title}</a>
+        <a href="${game_url}" target="_blank">${title}
         <img class="cartaImg" src="${thumbnail}">
+        </a>
         </div>
         `
         }else if (id>15){
             cartasCont2.innerHTML+=`
             <div class="juegosImg2">
-            <a href="${game_url}"">
-            <img class="cartaImg2" src="${thumbnail}">
-            </a>
+            <img class="cartaImg2" src="${thumbnail}" onclick="infoGames(${id})">
             </div>`
         }
     });
 }
- 
+
+async function infoGames(id){
+    const juegos = await getJuegos()
+    const result = juegos.filter((movie)=> movie.id === id)
+    localStorage.setItem('video', JSON.stringify(result))
+    window.location.href = './infoJuegos.html'
+}
