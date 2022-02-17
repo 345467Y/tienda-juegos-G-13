@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/formulario.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+    <div class="opcion">
+
+        <section class="form-register">
+            <h4>Formulario de Pago</h4>
+            <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese tu Nombre">
+            <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese tus Apellido">
+            <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese tu Correo">
+            <input class="controls" type="text" name="direccion" id="direccion" placeholder="(Direccion de facturacion)">
+            <input class="controls" type="text" name="codigo" id="codigo" placeholder="ingresa tu codigo postal o zip">
+            <input class="controls" type="text" name="telefono" id="telefono" placeholder="ingresa tu numero telefonico">
+            <div>-
+                <p>cual es tu forma de pago</p>
+                <select class="form-control" name="pago" id="pago">
+                    <option disabled selected value>selecciona tu froma de pago</option>
+                    <option id="visa" value="1"><a href="javascript:abrir()">visa</a></option>
+                    <option value="2">mastercard</option>
+                    <option value="3">payvalida</option>
+                    <option value="4">Efecty</option>
+                    <option value="5">baloto</option>
+                    <option value="6">American Express</option>
+
+                <!--</select>
+                <div>
+                    <section class="form-pago">
+                        <input class="controls" type="text" name="numero-targeta" id="numero-targeta" placeholder="ingresa el numero de la targeta">
+                        <input class="controls" type="text" name="codigo" id="codigo" placeholder="ingrresa el codigo de seguridad">
+                    </section>
+                </div>-->
+
+            </div>
+          </section>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="./scripts/formulario.js"></script>
+</body>
+</html>
