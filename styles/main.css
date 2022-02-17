@@ -9,7 +9,7 @@ main{
 
     margin-top: 1%;
     padding-bottom: 3px;
-    background:linear-gradient(rgb(0, 0, 0), rgb(20, 20, 78),blue, rgb(0, 0, 0));
+    background:linear-gradient(rgb(0, 0, 0), rgb(20, 20, 78),rgb(12, 12, 63), rgb(0, 0, 0));
 }
     .titleFree{
         border: 1px solid rgb(0, 7, 104);
@@ -51,4 +51,223 @@ main{
         width: 100%;
         border-radius:15px;
     }
+    
+    
+    header {
+        padding: 30px 0;
+        background-image: url("https://img.freepik.com/vector-gratis/resplandor-abstracto-fondo-oscuro-tecnologia-placa-circuito_33403-64.jpg?size=626&ext=jpg");
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    header .contenedor {
+        display: flex;
+        justify-content: center;
+        margin-right: 30px;
+        margin-left: 30px;
+        padding: 10px;
+      
+    }
+    
+    
+    header nav a {
+        color: #AAA;
+        margin-right: 20px;
+        margin: 20px;
+        
+    }
+  
+    .carousel-inner{
+        max-width: 90%;
+        margin: 5%;
+       
+    
+    }
+    
+    .carousel-item img{
+        object-fit: cover; /*ajusta*/
+        height: 500px;
+        margin-top: 2px;
+    }
+    
+    .logear{
+        border: 40;
+        background-color: rgb(255, 0, 0);
+        padding: 5px;   
+        color: white;
+    }
+
+    .footer{
+        background-color: grey;
+        margin: 0 auto;
+        display: block;
+    }
+    .footer>.container{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .footer .mb{
+        margin-top: 0;
+    }
+    .footer .mb>div{
+        padding: 10px 0;
+    }
+    .footer p{
+        margin-bottom: 10px;
+    }
+    p{
+        font-size: larger;
+    }
+    .footer span{
+        color: white;
+    }
+    .footer .politicas{
+        line-height: 25px;
+        padding: 0 8px;
+        font-weight: 700;
+        background-color: rgb(37, 37, 37);
+        display: inline-block;
+        border-radius: 3px;
+    }
+    .team img{
+        width: 10%;
+        border-radius: 10%;
+    }
+    .temers{
+        font-size: larger;
+    }
+    img{
+        backface-visibility: hidden;
+    }
+    .footer .listsocial{
+        vertical-align: top;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .listsocial a{
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 10px;
+        background-color: white;
+        font-size: 20px;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        color: red;
+    }
+    .listsocial{
+        display: -webkit-inline-box;
+    }
+
+    .opcion{
+        background-color: grey;
+        width: 30%;
+        color: red;
+        font-family: monospace;
+        font-size: 18px;
+        text-align: center;
+        padding: 33px;
+        border-radius: 22px;   
+        position: absolute;
+        left: 34%;
+        top: 35%;
+        display: none;
+        border-radius: 50px;
+    }
+    a{
+        font-family: serif;
+        font-size: larger;
+        color: red;
+        text-decoration: none;
+    }
+    #cerrar{
+        position: absolute;
+        right: 3px;
+    }
+    .controls{
+        width: 100%;
+        background: black;
+        padding: 10px;
+        border-radius: 40px;
+        margin-bottom: 16px;
+        border: 1px solid red;
+        font-family: 'calibri';
+        font-size: 18px;
+        color: red;
+    }
+    .opcion .botons{
+        width: 100%;
+        background: black;
+        border-radius: 40px;
+        padding: 12px;
+        color: red;
+        margin: 16px 0;
+        font-size: 16px;
+    }
+    body{
+        background-color: #030100;
+        color: white;
+        align-items: center;
+        text-align: center;
+        }
+        .logo{
+            border-radius: 20px;
+            width: auto;
+        }
+        .nombre-pagina{
+            font-size: x-large;
+            font-family: fantasy;
+        }
+        .nuestra-seleccion{
+            font-family: cursive;
+            text-align: center;
+        }
+        .menu{
+            margin: auto;
+            width: max-content;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        ul, ol{
+            list-style: none;
+        }
+        .generos li a {
+            background-color: grey;
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: block;
+            min-width: 100px;
+        }
+        .generos li a:hover{
+            background-color: rgb(124, 27, 27);
+        } 
+        .generos > li{
+            float: left;
+        }
+        .generos li ul{
+            display: none;
+            position: absolute;
+            min-width: 140px;
+        }
+        .generos li:hover > ul{
+            display: block;
+        }
+        .generos li ul li{
+            position: relative;
+        }
+        .generos li ul li ul{
+            right: -140px;
+            top: 0px;
+        }
+        .cartelera{
+            display: inline-table;
+        }
+        .destacados{
+            display: inline-table;
+        }
+        .pestañas{
+            display: inline-table;
+        }
+    
+        
     

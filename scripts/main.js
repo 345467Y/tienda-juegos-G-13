@@ -1,7 +1,14 @@
+function abrir(){
+    document.getElementById("opc").style.display="block";
+}
+function cerrar(){
+    document.getElementById("opc").style.display="none";
+}
+
 
 async function getJuegos (){
     try {
-        const resp = await fetch('http://localhost:3000/juegos');
+        const resp = await fetch('http://localhost:4000/juegos');
         const juegos = await resp.json()
         return juegos
     }catch (error){

@@ -11,22 +11,68 @@
 <body>
   <header>
 		<div class="contenedor">
-			<h2 class="logotipo">PlaYs13</h2>
 			<nav>
 				<a href="#" class="activo">Inicio</a>
 				<a href="#">juegos PC</a>
 				<a href="#">Noticias</a>
-				<a href="index3.html" id="series">Contacto</a>
+				<a href="#" id="series">Contacto</a>
 			</nav>
             <form id="form" action="">
                 <input type="text" id="search" class="search" placeholder="Búsqueda">
-            </form>
-            <nav>
-                <a class="logear" href="index.html">Logearse</a> 
-                </nav>   
+            </form> 
 		</div>
-	</header>
+    <div class="logo">
+      <img  src="https://i.pinimg.com/originals/9b/d8/8c/9bd88c8e74d666fed60487f95f419c12.png"  alt="logotipo">
+      <p class="nombre-pagina">Geek Gamer</p>
+  </div>
+<nav class="menu">
+  <ul class="generos">
+      <li><a href="#">Accion</a>
+      <ul class="subgeneros-accion">
+          <li><a href="#">Accion Rpg</a></li>
+          <li><a href="#">Accion tactica</a></li>
+          <li><a href="#">Accion y aventura</a></li>
+      </ul>
+      </li>
+      <li><a href="#">Estrategia</a></li>
+      <li><a href="#">Rol</a></li>
+      <li><a href="#">Deporte</a>
+      <ul>
+          <li><a href="#">Futbol</a></li>
+          <li><a href="#">Baloncesto</a></li>
+          <li><a href="#">Beisbol</a></li>
+          <li><a href="#">Boxeo</a></li>
 
+      </ul>
+      </li>
+      <li><a href="#">Simulacion</a></li>
+      <li><a href="#">Ciencia ficcion</a></li>
+  </ul>
+  <br>
+  <br>
+  <br>
+  <a href="javascript:abrir()">Registrarse</a>
+  <div class="opcion" id="opc">
+    <div id="cerrar">
+      <a href="javascript:cerrar()"><img src="./Imagenes/error.png" width="32px"></a>
+    </div>
+            <section class="form-register">
+                <h4>Formulario de Registro</h4>
+                <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese tu Nombre">
+                <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese tus Apellido">
+                <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese tu Correo">
+                <input class="controls" type="text" name="telefono" id="telefono" placeholder="Ingrese tu numero telefonico">
+                <input class="botons" type="submit" value="Registrarme">
+              </section>
+        </div>
+    </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+          </header>
+ 
     <main>
 
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -80,6 +126,51 @@
         </div>
 
       </div>
+      <footer class="footer">
+        <div class="container">
+            <div class="mb">
+                <div>
+                    <p>
+                        <span>Compra nuestros juegos para PC-Geek Gamer(Roller coaster of games)</span>
+                        "2013-2022"
+                        <br>
+                        "Todos los enlaces de compra no se encuentran alojados en nuestros servidores"
+                    </p>
+                    <nav class="politicas">
+                        <a href="#">Politica de privacidad</a>
+                        <a href="#">DMC</a>
+                        <a href="#">Terminos y condiciones</a>
+                    </nav>
+                </div>
+                <div class="hidden-sm hidden-md">
+                <nav>
+                    <p>
+                        <span class="temers">Team Geek Gamer</span>
+                    </p>
+                    <a href="#" class="team" target="_blank" data-toggle="tooltip" data-placement="top" title data-original-title="Jpz-1945"</a>
+                        <img src="https://store.playstation.com/store/api/chihiro/00_09_000/container/CZ/en/99/EP5823-CUSA16329_00-AV00000000000014/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=720&h=720" alt="Jpz-1945"> 
+                    <a href="#" class="team" target="_blank" data-toggle="tooltip" data-placement="top" title data-original-title="panda-x45"</a>
+                        <img src="https://store.playstation.com/store/api/chihiro/00_09_000/container/AU/en/99/EP5823-CUSA16329_00-AV00000000000001/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=720&h=720" alt="panda-x45">            
+                    <a href="#" class="team" target="_blank" data-toggle="tooltip" data-placement="top" title data-original-title="jinx-pd"</a>
+                        <img src="https://store.playstation.com/store/api/chihiro/00_09_000/container/FI/en/99/EP2402-CUSA05624_00-AV00000000000227/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=720&h=720" alt="jinx-pd">     
+                    <a href="#" class="team" target="_blank" data-toggle="tooltip" data-placement="top" title data-original-title="laura-Slmd"</a>
+                        <img src="https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/99/UP2538-CUSA05620_00-AV00000000000128/0/image?_version=00_09_000&platform=chihiro&bg_color=000000&opacity=100&w=720&h=720" alt="laura-Slmd">     
+                    <a href="#" class="team" target="_blank" data-toggle="tooltip" data-placement="top" title data-original-title="andrea-Contrras"</a>
+                        <img src="https://avatarfiles.alphacoders.com/266/thumb-266016.jpg" alt="andrea-Contrras">
+                </nav>
+                </div>
+
+                <ul class="listsocial">
+                    <li><a href="#">faceboock</a></li>
+                    <li><a href="#">twitter</a></li>
+                    <li><a href="#">suscribete a nuestro canal</a></li>
+                    <li><a href="#">agregame a steam</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </footer>
+
 
          
 
