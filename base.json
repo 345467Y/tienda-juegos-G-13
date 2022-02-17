@@ -1,0 +1,109 @@
+{
+    "categorias": [
+        {
+            "titulo": "Lo más vendido",
+            "listado": [
+                {
+                    "nombre": "DYING LIGHT 2",
+                    "imagen": "https://s3.gaming-cdn.com/images/products/2672/271x377/dying-light-2-stay-human-pc-juego-steam-cover.jpg",
+                    "descripcion": ""
+                },
+                {
+                    "nombre": "ALIENS FIRETEAM ELITE",
+                    "imagen": "https://www.zona-leros.net/storage/games_tumbl/aliens-fireteam-elite-deluxe-edition-cover-vkc.jpg",
+                    "descripcion": ""
+                },
+                {
+                    "nombre": "HADES",
+                    "imagen": "https://www.zona-leros.net/storage/games_tumbl/hades-battle-out-of-hell-cover-wax.jpg",
+                    "descripcion": ""
+                },
+                {
+                    "nombre": "NO MAN´S SKY",
+                    "imagen": "https://www.zona-leros.net/storage/games_tumbl/no-mans-sky-cover-hho.jpg",
+                    "descripcion": ""
+                },
+                {
+                    "nombre": "CHADOW OF THE TOMB RAIDER",
+                    "imagen": "https://www.zona-leros.net/storage/games_tumbl/shadow-of-the-tomb-raider-croft-edition-cover-nai.jpg",
+                    "descripcion": ""
+                },
+                {
+                    "nombre": "THE WITNESS",
+                    "imagen": "https://www.zona-leros.net/storage/games_tumbl/the-witness-cover-hi8.jpg",
+                    "descripcion": ""
+                }
+            ]
+        },
+        {
+            "titulo": "Próximamente",
+            "listado": [
+                {
+                    "nombre": "I, W.O.M.A.N.",
+                    "imagen": "img/b1.png",
+                    "descripcion": ""
+                },
+                {
+                    "nombre": "Pokemon",
+                    "imagen": "https://www.zona-leros.net/storage/games_tumbl/i-woman-cover-qvo.jpg",
+                    "descripcion": ""
+                },
+                {
+                    "nombre": "KINGDOM of the DEAD",
+                    "imagen": "https://www.zona-leros.net/storage/games_tumbl/kingdom-of-the-dead-cover-e80.jpg",
+                    "descripcion": ""
+                },
+                {
+                    "nombre": "INFERNAX",
+                    "imagen": "https://www.zona-leros.net/storage/games_tumbl/infernax-cover-r5h.jpg",
+                    "descripcion": ""
+                },
+                {
+                    "nombre": "HUMANS CONNECT",
+                    "imagen": "https://www.zona-leros.net/storage/games_tumbl/humans-connect-cover-kry.jpg",
+                    "descripcion": ""
+                },
+                {
+                    "nombre": "LUST FROM BEYOND",
+                    "imagen": "https://www.zona-leros.net/storage/games_tumbl/lust-from-beyond-m-edition-cover-dm9.jpg",
+                    "descripcion": ""
+                }
+            ]
+        },
+        {
+            "titulo": "Ofertas",
+            "listado": [
+                {
+                    "nombre": "JUST FOR DARKNESS",
+                    "imagen": "https://www.zona-leros.net/storage/games_tumbl/lust-for-darkness-cover-jde.jpg",
+                    "descripcion": ""
+                },
+                {
+                    "nombre": "LARRY WET DREAMS DRY TWICE",
+                    "imagen": "https://www.zona-leros.net/storage/games_tumbl/leisure-suit-larry-wet-dreams-dry-twice-cover-wg5.jpg",
+                    "descripcion": ""
+                },
+                {
+                    "nombre": "STARDEW VALLEY",
+                    "imagen": "https://www.zona-leros.net/storage/games_tumbl/stardew-valley-cover-lwa.jpg",
+                    "descripcion": ""
+                },
+                {
+                    "nombre": "BLASPHEMOUS",
+                    "imagen": "https://www.zona-leros.net/storage/games_tumbl/blasphemous-cover-9mg.jpg",
+                    "descripcion": ""
+                },
+                {
+                    "nombre": "THE RED LANTERN",
+                    "imagen": "https://www.zona-leros.net/storage/games_tumbl/the-red-lantern-cover-ynh.jpg",
+                    "descripcion": ""
+                },
+                {
+                    "nombre": "MARIOKART 8",
+                    "imagen": "https://www.zona-leros.net/storage/games_tumbl/mario-kart-8-cover-69m.jpg",
+                    "descripcion": " "
+                }
+            ]
+        }
+    ]
+}
