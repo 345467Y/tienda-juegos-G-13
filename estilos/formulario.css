@@ -1,0 +1,71 @@
+body{
+    background-color: grey;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .opcion{
+    background-color: rgb(180, 175, 175);
+    width: 40%;
+    color: red;
+    font-family: monospace;
+    font-size: 18px;
+    text-align: center;
+    padding: 40px;
+    border-radius: 22px;   
+    position: absolute;
+    left: 34%;
+    top: 5%;
+    display: none;
+    border-radius: 50px;
+  }
+  a{
+    font-family: serif;
+    font-size: larger;
+    color: red;
+    text-decoration: none;
+  }
+  #cerrar{
+    position: absolute;
+    right: 2px;
+  }
+  .form-register{
+    background-color: rgb(31, 29, 29);
+    border-radius: 20px;
+    color: red;
+  }
+  .form-register h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .controls{
+    width: 80%;
+    background: rgb(219, 217, 217);
+    padding: 10px;
+    border-radius: 40px;
+    margin-bottom: 16px;
+    border: 1px solid red;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+  .form-control{
+    width: 80%;
+    background: rgb(219, 217, 217);
+    padding: 20px;
+    margin: auto;
+    border-radius: 40px;
+    font-family: 'calibri';
+    color: black;
+    border: 1px solid red;
+    /*box-shadow: 7px 13px 37px #000;*/
+  }
+  .buton{
+    background-color: red;
+    color: black;
+    border-radius: 5px;
+    width: 40%;
+    margin: 10px;
+    font-size: 15px;
+    font-family: cursive;
+  }
+  
