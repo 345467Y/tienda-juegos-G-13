@@ -1,76 +1,105 @@
 body{
-    background-color: rgb(126, 39, 39);
-    font-family: sans-serif;
-  }
-  .form-register {
-    width: 400px;
-    background: #24303c;
-    padding: 30px;
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 50px;
-    font-family: 'calibri';
-    color: white;
-    box-shadow: 7px 13px 37px #000;
-  }
-  .form-register h4 {
-    font-size: 22px;
-    margin-bottom: 20px;
-  }
+  font-family: sans-serif;
+}
+.opcion{
+  background-color: rgb(180, 175, 175);
+  width: 40%;
+  color: red;
+  font-family: monospace;
+  font-size: 18px;
+  text-align: center;
+  padding: 40px;
+  border-radius: 22px;   
+  position: absolute;
+  left: 34%;
+  top: 5%;
+  display: none;
+  border-radius: 50px;
+}
+a{
   
-  .controls {
-    width: 100%;
-    background: #24303c;
+  font-family: serif;
+  font-size: larger;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+#cerrar{
+  position: absolute;
+  right: 2px;
+}
+.form-register{
+  background-color: rgb(31, 29, 29);
+  border-radius: 20px;
+  color: red;
+}
+.form-register h1 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.controls{
+  width: 80%;
+  background: rgb(219, 217, 217);
+  padding: 10px;
+  border-radius: 40px;
+  margin-bottom: 16px;
+  border: 1px solid red;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+.form-control{
+  width: 80%;
+  background: rgb(219, 217, 217);
+  padding: 20px;
+  margin: auto;
+  border-radius: 40px;
+  font-family: 'calibri';
+  color: black;
+  border: 1px solid red;
+  /*box-shadow: 7px 13px 37px #000;*/
+}
+.buton{
+  background-color: rgb(255, 0, 0);
+  color: black;
+  border-radius: 5px;
+  width: 40%;
+  margin: 10px;
+  font-size: 15px;
+  font-family: cursive;
+}
+  .comprar{
+    display: flex;
+    /* justify-content: center; */
+    background-color: rgb(114, 114, 114);
+    border: 1px solid white;
+    width: fit-content;
+    align-self: center;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+
+
+
+  header {
+ 
+/*     background-image: url("https://img.freepik.com/foto-gratis/tecnologias-resumen-espacio-poligonal-poli-oscuro-fondo-oscuro-puntos-lineas-conexion-estructura-conexion-fondo-poligonal-futurista-fondo-pantalla-negocios-triangular_38076-1954.jpg");
+ */    font-family:fantasy;
+}
+
+header .contenedor {
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+    margin-left: 30px;
     padding: 10px;
-    border-radius: 40px;
-    margin-bottom: 16px;
-    border: 1px solid #1f53c5;
-    font-family: 'calibri';
-    font-size: 18px;
-    color: white;
-  }
   
-  .form-register p {
-    height: 40px;
-    text-align: center;
-    font-size: 18px;
-    line-height: 40px;
-  }
-  .form-control{
-    width: 100%;
-    background: #24303c;
-    padding: 30px;
-    margin: auto;
-    border-radius: 50px;
-    font-family: 'calibri';
-    color: white;
-    border: 1px solid #1f53c5;
-    box-shadow: 7px 13px 37px #000;
-  }
-  option{
-    font-size: 17px;
-  }
-  .form-register a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  .form-register a:hover {
-    color: white;
-    text-decoration: underline;
-  }
-  
-  .form-register .botons {
-    width: 100%;
-    background: #1f53c5;
-    border: none;
-    padding: 12px;
-    color: white;
-    margin: 16px 0;
-    font-size: 16px;
-  }
-  .visa{
-    position: absolute;
-    left: 34%;
-    display: none;
-  }
+}
+
+
+header nav a {
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+    margin: 20px;
+    
+}    

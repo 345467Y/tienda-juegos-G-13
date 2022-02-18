@@ -36,3 +36,25 @@ main{
         border-radius: 15px;
         color: black;
     }
+    header {
+ 
+        background-image: url("https://img.freepik.com/foto-gratis/tecnologias-resumen-espacio-poligonal-poli-oscuro-fondo-oscuro-puntos-lineas-conexion-estructura-conexion-fondo-poligonal-futurista-fondo-pantalla-negocios-triangular_38076-1954.jpg");
+        font-family:fantasy;
+    }
+    
+    header .contenedor {
+        display: flex;
+        justify-content: center;
+        margin-right: 30px;
+        margin-left: 30px;
+        padding: 10px;
+      
+    }
+    
+    
+    header nav a {
+        color: #AAA;
+        margin-right: 20px;
+        margin: 20px;
+        
+    }    

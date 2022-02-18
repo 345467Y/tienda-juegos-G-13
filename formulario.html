@@ -4,14 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/formulario.css">
+    <link rel="stylesheet" href="./styles/formprueba.css">
     <title>Document</title>
 </head>
+
+<header>
+    <div class="contenedor">
+ 
+        <nav>
+            <a href="index.html" class="activo">Inicio</a>
+            <a href="#">Noticias</a>
+            <a href="#">Compras</a>
+            <a href="#" id="series">Contacto</a>
+        </nav>
+    </div>    
+</header>  
+
+
 <body>
     
 
 
-
+<center>
     <div class="opcion">
 
         <section class="form-register">
@@ -22,8 +36,8 @@
             <input class="controls" type="text" name="direccion" id="direccion" placeholder="(Direccion de facturacion)">
             <input class="controls" type="text" name="codigo" id="codigo" placeholder="ingresa tu codigo postal o zip">
             <input class="controls" type="text" name="telefono" id="telefono" placeholder="ingresa tu numero telefonico">
-            <div>-
-                <p>cual es tu forma de pago</p>
+            <div>
+                <p>Cual es tu forma de pago</p>
                 <select class="form-control" name="pago" id="pago">
                     <option disabled selected value>selecciona tu froma de pago</option>
                     <option id="visa" value="1"><a href="javascript:abrir()">visa</a></option>
@@ -44,8 +58,8 @@
             </div>
           </section>
     </div>
+</center>
 
-
-    <script src="./scripts/formulario.js"></script>
+<!--     <script src="./scripts/formulario.js"></script> -->
 </body>
 </html>

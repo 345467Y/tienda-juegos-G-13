@@ -115,12 +115,13 @@ main{
         margin-bottom: 10px;
     }
     p{
-        font-size: larger;
+        font-size: 0.8rem;
     }
     .footer span{
         color: white;
     }
     .footer .politicas{
+        font-size: 0.7rem;
         line-height: 25px;
         padding: 0 8px;
         font-weight: 700;
@@ -142,14 +143,16 @@ main{
         vertical-align: top;
         padding-left: 5px;
         padding-right: 5px;
+        gap:8px;
     }
     .listsocial a{
+
         width: 40px;
         height: 40px;
         line-height: 40px;
         border-radius: 10px;
         background-color: white;
-        font-size: 20px;
+        font-size: 1rem;
         align-items: center;
         text-align: center;
         text-decoration: none;
@@ -212,8 +215,11 @@ main{
         }
         .logo{
             border-radius: 50px;
-            width: auto;
         }
+            .imagenP{
+                border-radius: 13px;
+                width: 35%;
+            }
         .nombre-pagina{
             font-size: x-large;
             font-family: fantasy;
@@ -231,6 +237,7 @@ main{
             list-style: none;
         }
         .generos li a {
+            border-radius: 15px;
             background-color: grey;
             color: white;
             text-decoration: none;
@@ -277,6 +284,8 @@ main{
             background-color: rgb(240, 22, 22);
             border-radius: 20px;
         }
+ 
+
 
        
         
