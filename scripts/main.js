@@ -80,3 +80,17 @@ form.addEventListener("submit", (e) => {
     
     counstruirJuegosNoGratuitos(busqueda)
 }) 
+
+//formulario de registro
+
+function registrar(){
+    let nombres = document.getElementById("nombres").value;
+    let apellidos = document.getElementById("apellidos").value;
+    let correo = document.getElementById("correo").value;
+    let telefono = document.getElementById("telefono").value;
+	localStorage.setItem("nombres", nombres);
+	localStorage.setItem("apellidos", apellidos);
+	localStorage.setItem("correo", correo);
+    localStorage.setItem("telefono", telefono);
+    alert('Gracias por registrarte');
+}
