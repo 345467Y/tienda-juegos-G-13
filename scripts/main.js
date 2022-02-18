@@ -1,3 +1,4 @@
+let juegosJson=[];
 function abrir(){
     document.getElementById("opc").style.display="block";
 }
@@ -21,8 +22,13 @@ const cartasCont = document.getElementById('cartas');
 const cartasCont2 = document.getElementById('cartas2');
 
 async function mostrarJuegos(){
-    const juegos = await getJuegos()
+    const juegos = await getJuegos();
+    juegosJson = juegos;
     console.log(juegos);
+    counstruirJuegos(juegos);
+}
+
+function counstruirJuegos(juegos){
     juegos.forEach(element => {
         const {id, title, thumbnail,game_url} = element  
         if (id<=8){
@@ -48,3 +54,29 @@ async function infoGames(id){
     localStorage.setItem('video', JSON.stringify(result))
     window.location.href = './infoJuegos.html'
 }
+
+function counstruirJuegosNoGratuitos(juegos){
+    cartasCont2.innerHTML = '';
+    juegos.forEach(element => {
+        const {id, title, thumbnail,game_url} = element  
+        if (id>15){
+            cartasCont2.innerHTML+=`
+            <div class="juegosImg2">
+            <img class="cartaImg2" src="${thumbnail}" onclick="infoGames(${id})">
+            </div>`
+        }
+    });
+}
+
+
+//funcion buscar
+const form = document.getElementById("form")
+form.addEventListener("submit", (e) => { 
+    e.preventDefault(); 
+
+    const search = document.getElementById("search").value;
+
+    const busqueda = juegosJson.filter(juego => juego.title.toLocaleLowerCase().includes(search.toLocaleLowerCase()) || search === "");
+    
+    counstruirJuegosNoGratuitos(busqueda)
+}) 
